@@ -17,7 +17,7 @@ load_dotenv(os.path.join(BASE_DIR, ".env"))
 
 MONGODB_URI = os.getenv(
     "MONGODB_URI",
-    "mongodb+srv://msyashas01_db_user:e97Be45Vw0fiEvEg@plantdiseasedetection.cvs7nie.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb url"
 )
 
 # Connect to MongoDB Atlas with low timeout (2000ms) to fail fast to local store if offline/unwhitelisted
