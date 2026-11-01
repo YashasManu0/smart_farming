@@ -1,0 +1,43 @@
+# Environment variables (contains secret API keys)
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.local
+
+# Python
+__pycache__/
+backend/__pycache__/
+*.py[cod]
+*$py.class
+*.h5
+backend/*.h5
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/node_modules/
+.npm
+
+# Temporary files
+latest_prediction.png
+training_history.png
+backend/training_history.png
+test_*.png
+
+
+# Frontend environment files
+frontend/.env
+frontend/.env.local
+
+# Additional Python environments
+venv/
+.venv/
+
+# Local application database
+backend/local_kanban_db.json
+
+# Dataset
+plantvillage dataset/
+Report/
+ppt/
